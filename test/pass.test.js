@@ -18,12 +18,12 @@ describe("Will pass the test", function() {
   this.timeout(0);
   tests.map(test => {
     it(test+" test", function() {
-      expect(true).to.be.true;
-      // if(test === 4){
-      //   expect(true).to.be.false;
-      // }else{
-      //   expect(true).to.be.true;
-      // }
+      // expect(true).to.be.true;
+      if(test === 4){
+        expect(true).to.be.false;
+      }else{
+        expect(true).to.be.true;
+      }
     });
   })
 });

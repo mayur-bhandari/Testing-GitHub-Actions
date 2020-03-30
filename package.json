@@ -23,13 +23,11 @@
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/node": "^11.11.0",
-    "mocha": "^6.2.0",
-    "pre-commit": "^1.2.2"
+    "mocha": "^6.2.0"
   },
   "scripts": {
     "test": "mocha test/*.js"
   },
-  "pre-commit": [ "test" ],
   "author": "",
   "license": "ISC",
   "repository": {
