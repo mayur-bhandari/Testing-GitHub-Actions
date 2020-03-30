@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 # if any command inside script returns error, exit and return that error 
 set -e
